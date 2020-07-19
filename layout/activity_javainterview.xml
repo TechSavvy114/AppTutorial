@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#030404"
+    android:layout_height="match_parent"
+    tools:context=".Javainterview">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="#FFEB3B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java Interview Questions"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="#040305"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="#FCFDFD"
+                    android:text="what do you know about java?"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="list any five features of java?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what do you mean by object?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="define class?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is local variable ?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is instance variable ?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is class variable ?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is static variable ?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Define inheritance ?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="when super keyword is used ?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is polymorphism ?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is abstraction ?"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is encapsulation ?"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="define packages in java ?"/>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

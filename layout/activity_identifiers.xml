@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Identifiers">
+
+    <TextView
+        android:id="@+id/t1"
+        android:background="#FFEB3B"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Identifiers"
+        android:gravity="center"
+        android:textSize="23dp"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_below="@+id/t1"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="All java components require names. Names used for classes, variables, and methods are called identifiers.
+In Java, there are several points to remember about identifiers. They are as follows:\n
+\n1- All identifiers should begin with a letter (A to Z or a to z), currency character ($) or an underscore (_).
+\n2- After the first character, identifiers can have any combination of characters.
+\n3- A key word cannot be used as an identifier.
+\n4- Most importantly, identifiers are case sensitive.
+\n5- Examples of legal identifiers: age, $salary, _value, __1_value.
+\n6- Examples of illegal identifiers: 123abc, -salary. "/>
+</RelativeLayout>

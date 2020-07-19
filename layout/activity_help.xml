@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".Help">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Help"
+        android:textStyle="bold"
+        android:id="@+id/text"
+        android:background="#FFEB3B"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:id="@+id/b1"
+        android:textColor="#FFEB3B"
+        android:background="#050505"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/text"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:text="Ask a Question"/>
+
+
+    <Button
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/b1"
+        android:id="@+id/b2"
+        android:textColor="#FFEB3B"
+        android:background="#050505"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:text="Suggest Developer"/>
+
+
+    <Button
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/b2"
+        android:id="@+id/b3"
+        android:textColor="#FFEB3B"
+        android:background="#050505"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:text="Rate us on play store"/>
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/b3"
+        android:textSize="20dp"
+        android:id="@+id/tx"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect with us"/>
+
+    <LinearLayout
+        android:layout_below="@id/tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fb"
+            android:layout_marginTop="20dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:src="@drawable/link"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:src="@drawable/twitter"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:src="@drawable/insta"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:src="@drawable/tube"
+            android:layout_marginTop="20dp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

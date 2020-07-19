@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProgrammingBook">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Programming Books"
+        android:gravity="center"
+        android:background="#FFEB3B"
+        android:textColor="#FCFDFD"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_below="@id/text"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#080909"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+
+                android:src="@drawable/letusc"/>
+
+            <TextView
+                android:layout_marginTop="170dp"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFEB3B"
+                android:text="Let Us C "/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#050505"
+            app:cardCornerRadius="20dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/tour"/>
+            <TextView
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#FFEB3B"
+                android:layout_marginTop="170dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A Tour of C++"/>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_below="@id/l1"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="#070707"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:src="@drawable/letusc"/>
+
+                <TextView
+                    android:layout_marginTop="170dp"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:textColor="#FFEB3B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Thinking in Java"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#030404"
+                app:cardCornerRadius="20dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:src="@drawable/tour"/>
+                <TextView
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:textColor="#FFEB3B"
+                    android:layout_marginTop="170dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Java in a Nutshell"/>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_below="@id/l2"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="#070707"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:src="@drawable/letusc"/>
+
+                <TextView
+                    android:layout_marginTop="170dp"
+                    android:gravity="center"
+                    android:textColor="#FFEB3B"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Learning with Phyton"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#020202"
+                app:cardCornerRadius="20dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:src="@drawable/tour"/>
+                <TextView
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:textColor="#FFEB3B"
+                    android:layout_marginTop="170dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phyton Crash "/>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l4"
+            android:layout_below="@id/l3"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FC050505"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image7"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:src="@drawable/letusc"/>
+
+                <TextView
+                    android:textColor="#FFEB3B"
+                    android:layout_marginTop="170dp"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Let Us C "/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#050505"
+                app:cardCornerRadius="20dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image8"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:src="@drawable/tour"/>
+                <TextView
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:textColor="#FFEB3B"
+                    android:layout_marginTop="170dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A Tour of C++"/>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

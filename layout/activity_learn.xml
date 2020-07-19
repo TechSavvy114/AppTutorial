@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Learn">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="7dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#FFEB3B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F8F8F5"
+            android:textStyle="bold"
+            android:text="Learn with Fun"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:id="@+id/card1"
+            android:backgroundTint="#070707"
+            android:layout_height="180dp"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HTML"
+                android:textColor="#FFEB3B"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The language for building web pages"
+                android:textColor="#FFEB3B"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="55dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="80dp"
+                    android:background="#FFEB3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="learn html"/>
+                <Button
+                    android:id="@+id/b2"
+                    android:text="html reference"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFEB3B"
+                    android:textStyle="bold"
+                    android:layout_marginTop="100dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#070707"
+            android:layout_height="180dp"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSS"
+                android:textColor="#FFEB3B"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The language for styling web pages"
+                android:textColor="#FFEB3B"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="55dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="80dp"
+                    android:background="#FFEB3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="learn css"/>
+                <Button
+                    android:id="@+id/b4"
+                    android:text="css reference"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFEB3B"
+                    android:textStyle="bold"
+                    android:layout_marginTop="100dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#070707"
+            android:layout_height="180dp"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JavaScript"
+                android:textColor="#FFEB3B"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The language for programming web pages"
+                android:textColor="#FFEB3B"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="55dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="60dp"
+                    android:background="#FFEB3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="learn javascript"/>
+                <Button
+                    android:id="@+id/b6"
+                    android:text="javascript reference"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFEB3B"
+                    android:textStyle="bold"
+                    android:layout_marginTop="100dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#070707"
+            android:layout_height="180dp"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SQL"
+                android:textColor="#FFEB3B"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A language for accessing databases"
+                android:textColor="#FFEB3B"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="55dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/b7"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="80dp"
+                    android:background="#FFEB3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="learn sql"/>
+                <Button
+                    android:id="@+id/b8"
+                    android:text="sql reference"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFEB3B"
+                    android:textStyle="bold"
+                    android:layout_marginTop="100dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#070707"
+            android:layout_height="180dp"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Python"
+                android:textColor="#FFEB3B"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A Programming language "
+                android:textColor="#FFEB3B"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="55dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/b9"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="150dp"
+                    android:background="#FFEB3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="learn python"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#070707"
+            android:layout_height="180dp"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHP"
+                android:textColor="#FFEB3B"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A web server programming language"
+                android:textColor="#FFEB3B"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="55dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/b10"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="150dp"
+                    android:background="#FFEB3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="learn php"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#070707"
+            android:layout_height="180dp"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Java"
+                android:textColor="#FFEB3B"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A programming language"
+                android:textColor="#FFEB3B"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="55dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/b11"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="150dp"
+                    android:background="#FFEB3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="learn java"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#070707"
+            android:layout_height="180dp"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C++"
+                android:textColor="#FFEB3B"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A programming language"
+                android:textColor="#FFEB3B"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="55dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/b12"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="150dp"
+                    android:background="#FFEB3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="learn c++"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#070707"
+            android:layout_height="180dp"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AWS"
+                android:textColor="#FFEB3B"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A language for managing databases"
+                android:textColor="#FFEB3B"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="55dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/b13"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="150dp"
+                    android:background="#FFEB3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="learn aws"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#070707"
+            android:layout_height="180dp"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ANDROID"
+                android:textColor="#FFEB3B"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The language for building mob application"
+                android:textColor="#FFEB3B"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="55dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/b14"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="150dp"
+                    android:background="#FFEB3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="learn android"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#070707"
+            android:layout_height="180dp"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=".NET"
+                android:textColor="#FFEB3B"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The language for building web pages"
+                android:textColor="#FFEB3B"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="55dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/b15"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="150dp"
+                    android:background="#FFEB3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="learn .net"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#070707"
+            android:layout_height="180dp"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RUBY"
+                android:textColor="#FFEB3B"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The language for building web pages"
+                android:textColor="#FFEB3B"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="55dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/b16"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="150dp"
+                    android:background="#FFEB3B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="learn ruby"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

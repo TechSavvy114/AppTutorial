@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#020202"
+    android:layout_height="match_parent"
+    tools:context=".Androidinterview">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="#FFEB3B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android Interview Questions"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="#040305"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is Android?"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Who is the founder of Android?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Explain the Android application Architecture"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="What are the code names of android?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="What are the advantages of Android?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="What are the core blocks of android?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="What is activity in android?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Explain Life cycle of activity?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="What is intent?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Define Android toast."/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="List impotent folders in android"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="What is application resource file?"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="What is implicit intent?"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="What is explicit intent?"/>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

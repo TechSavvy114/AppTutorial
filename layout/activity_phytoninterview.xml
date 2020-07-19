@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#050505"
+    android:layout_height="match_parent"
+    tools:context=".Phytoninterview">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="#FFEB3B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phyton Interview Questions"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="#040305"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is Phyton?"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="whAT ARE benefits of using phyton?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is pep 8?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is pickling and unpickling?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="how phyton is interpreted?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="how memory is managed in phyton?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what are phyton decorators?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is difference between list and tuple?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is dict and list comprehensions?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is namespace in phyton?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is lambda in phyton?"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is pass in phyton?"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what is unittest in phyton?"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:background="#040305"
+                android:layout_marginTop="4dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="25dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="what are generators in phyton?"/>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
